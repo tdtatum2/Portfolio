@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import logo from '../assets/logo.svg';
 import navIcon1 from '../assets/nav-icon1.svg';
 import navIcon2 from '../assets/nav-icon2.svg';
-// import navIcon3 from '../assets/nav-icon3.svg';
+import navIcon4 from '../assets/nav-icon4.svg';
 
 function NavBar() {
     const [activeLink, setActiveLink] = useState('home');
@@ -47,8 +47,9 @@ function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href="https://linkedin.com/in/fin-tatum/" target="_blank"><img src={navIcon1} alt="LinkedIn Logo" /></a>
-                <a href="https://github.com/tdtatum2/" target="_blank"><img src={navIcon2} alt="GitHub Logo" /></a>
+                <a href="https://linkedin.com/in/fin-tatum/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="LinkedIn Logo" /></a>
+                <a href="https://github.com/tdtatum2/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="GitHub Logo" /></a>
+                <a href="https://www.frontendmentor.io/profile/tdtatum2" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Frontend Mentor Logo" /></a>
             </div>
             <button onClick={() => {window.location.href='#connect'}}><span>Let's Connect!</span></button>
           </span>

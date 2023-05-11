@@ -7,6 +7,7 @@ import projImg3 from '../assets/zippy.png';
 import projImg4 from '../assets/smite.png';
 import projImg5 from '../assets/react-playground.png';
 import projImg6 from '../assets/weather-app.png';
+import projImg7 from '../assets/frontendmentor.png';
 import designImg1 from '../assets/gd1.png';
 import designImg2 from '../assets/gd2.png';
 import designImg3 from '../assets/gd3.png';
@@ -23,12 +24,12 @@ function Projects() {
             imgUrl: projImg1,
             projectUrl: "https://github.com/tdtatum2/us-states-application"
         },
-        {
-            title: "FHSU Astronomy Club",
-            description: "Partnered senior capstone project.",
-            imgUrl: projImg2,
-            projectUrl: "https://github.com/tdtatum2/team-astro"
-        },
+        // {
+        //     title: "FHSU Astronomy Club",
+        //     description: "Partnered senior capstone project.",
+        //     imgUrl: projImg2,
+        //     projectUrl: "https://github.com/tdtatum2/team-astro"
+        // },
         {
             title: "Zippy's Used Autos",
             description: "Back-end development project focusing on MySQL databases and PHP back-end.",
@@ -52,6 +53,12 @@ function Projects() {
             description: "A ReactJS project utilizing the OpenMapWeather API to provide current weather information at a user-inputted location.",
             imgUrl: projImg6,
             projectUrl: "https://tdtatum2.github.io/Weather-App/"
+        },
+        {
+            title: "Front End Mentor Projects",
+            description: "Check out my frontendmentor.io profile!",
+            imgUrl: projImg7,
+            projectUrl: "https://www.frontendmentor.io/profile/tdtatum2"
         }
         
     ];
